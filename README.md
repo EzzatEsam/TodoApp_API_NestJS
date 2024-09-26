@@ -27,7 +27,9 @@ npm install
 ```
 
 3. Provide the environment variables:
-   `NEON_DB_URL` or add your own database credentials `HOST`, `PORT`, `USER`, `PASS` and `NAME` to your `.env` file but you will have to modify the config in both the [drizzle.config.ts](drizzle.config.ts) and the [db.ts](src/db/db.ts) files.
+   - `NEON_DB_URL` or add your own database credentials `HOST`, `PORT`, `USER`, `PASS` and `NAME` to your `.env` file but you will have to modify the config in both the [drizzle.config.ts](drizzle.config.ts) and the [db.ts](src/db/db.ts) files.
+
+- `JWT_SECRET`
 
 4. Update the database schema:
 
